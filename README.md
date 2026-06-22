@@ -20,11 +20,11 @@ Codeforces e no CSES e participamos de competições como a Maratona SBC de
 Programação (ICPC Brasil), a Paulista e a Mineira.
 
 <!-- PREENCHER: nomes, curso/ano e handles dos integrantes -->
-| Integrante | Curso / Ano | Codeforces | GitHub |
+| Integrante | Curso | Codeforces | GitHub |
 |---|---|---|---|
-| _(nome)_ | _(curso, ano)_ | [@handle](https://codeforces.com/profile/handle) | [@user](https://github.com/user) |
-| _(nome)_ | _(curso, ano)_ | [@handle](https://codeforces.com/profile/handle) | [@user](https://github.com/user) |
-| _(nome)_ | _(curso, ano)_ | [@handle](https://codeforces.com/profile/handle) | [@user](https://github.com/user) |
+| Fernando Hiroshi Murusaki | _(BCC)_ | [@user](https://github.com/hiroshimurosaki) |
+| _Igor dos Reis Gomes_ | _(BCC)_ | [@user](https://github.com/igor-reisg) |
+| _Pedro da Costa Sorge_ | _(BCC)_ | [@user](https://github.com/Pedrosorge) |
 
 ---
 
