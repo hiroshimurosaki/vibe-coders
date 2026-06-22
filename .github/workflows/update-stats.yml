@@ -1,0 +1,35 @@
+name: Update README stats
+
+on:
+  push:
+    branches: [main]
+
+# Necessário para o bot conseguir dar commit/push do README atualizado.
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Recalcular estatísticas
+        run: python3 scripts/gen_readme_stats.py
+
+      - name: Commitar README se mudou
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            # [skip ci] evita que este commit dispare o workflow de novo (loop).
+            git commit -m "chore: atualiza estatísticas do README [skip ci]"
+            git push
+          else
+            echo "Sem mudanças nas estatísticas."
+          fi
