@@ -33,7 +33,7 @@ Programação (ICPC Brasil), a Paulista e a Mineira.
 > [`update-stats`](.github/workflows/update-stats.yml).
 
 <!-- STATS:START -->
-> **118** problemas resolvidos · **41** Codeforces · **37** CSES · **40** em provas (10 competições)
+> **118** problemas resolvidos · **41** Codeforces · **37** CSES · **40** em provas (1 competições)
 
 ### Por fonte
 
@@ -92,16 +92,7 @@ pie showData
 
 | Competição | Problemas |
 |---|---|
-| Mineira 2026 | 8 |
-| Paulista 2025 | 6 |
-| Paulista 2026 | 6 |
-| ICPC 2020 | 5 |
-| ICPC 2013 | 4 |
-| ICPC FP 2024 | 3 |
-| ICPC Summer School 2026 | 3 |
-| Phase Zero 2025 | 2 |
-| Zhili Cup 2026 | 2 |
-| ICPC FP 2025 | 1 |
+| Maratonas | 40 |
 <!-- STATS:END -->
 
 ---
