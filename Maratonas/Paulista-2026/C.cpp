@@ -1,3 +1,11 @@
+/*
+PROBLEMA C - Capital Mundial da Pizza
+Link do enunciado do Problema: https://codeforces.com/gym/106598/problem/C
+
+Abordagem: 
+Calcular quantos pedaços de 'n' pizzas de 8 pedaços podem ser divididos para 'm' pessoas.
+*/
+
 #include <bits/stdc++.h>
 
 using namespace std;
