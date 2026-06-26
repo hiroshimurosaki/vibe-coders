@@ -33,7 +33,7 @@ Programação (ICPC Brasil), a Paulista e a Mineira.
 > [`update-stats`](.github/workflows/update-stats.yml).
 
 <!-- STATS:START -->
-> **121** problemas resolvidos · **41** Codeforces · **37** CSES · **43** em provas (1 competições)
+> **123** problemas resolvidos · **41** Codeforces · **39** CSES · **43** em provas (1 competições)
 
 ### Por fonte
 
@@ -41,7 +41,7 @@ Programação (ICPC Brasil), a Paulista e a Mineira.
 pie showData
     title Problemas por fonte
     "Codeforces" : 41
-    "CSES" : 37
+    "CSES" : 39
     "Provas" : 43
 ```
 
@@ -81,10 +81,10 @@ pie showData
     "Introductory Problems" : 16
     "Sorting and Search" : 8
     "Tree Algorithms" : 4
+    "Geometry" : 3
     "Graph Algorithms" : 3
     "Mathematics" : 3
     "Bitwise Operations" : 1
-    "Geometry" : 1
     "Range Queries" : 1
 ```
 
